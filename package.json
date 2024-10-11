@@ -1,0 +1,23 @@
+{
+	"name": "svelte-vite",
+	"private": true,
+	"version": "0.0.1",
+	"type": "module",
+	"scripts": {
+		"build": "vite build",
+		"format": "prettier --write .",
+		"check": "svelte-check --tsconfig ./tsconfig.json && tsc -p tsconfig.node.json"
+	},
+	"devDependencies": {
+		"@sveltejs/vite-plugin-svelte": "^3.1.2",
+		"@tsconfig/svelte": "^5.0.4",
+		"loglevel": "^1.9.2",
+		"prettier": "^3.3.3",
+		"prettier-plugin-svelte": "^3.2.7",
+		"svelte": "^4.2.19",
+		"svelte-check": "^4.0.4",
+		"tslib": "^2.7.0",
+		"typescript": "^5.5.3",
+		"vite": "^5.4.8"
+	}
+}
